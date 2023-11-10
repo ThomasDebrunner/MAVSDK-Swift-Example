@@ -17,11 +17,11 @@ struct PipView: View {
         VStack(alignment: .leading) {
 
             ZStack {
-                if isVideo {
-                    VideoView()
-                } else {
+//                if isVideo {
+//                    VideoView()
+//                } else {
                     MapView()
-                }
+    //            }
                 
                 VStack {
                     HStack {

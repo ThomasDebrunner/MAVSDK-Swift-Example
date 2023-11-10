@@ -17,11 +17,11 @@ struct MainView: View {
             MenuView()
             ZStack(alignment: .topTrailing) {
                 
-                if isVideo {
+ //               if isVideo {
                     MapView()
-                } else {
-                    VideoView()
-                }
+//                } else {
+//                    VideoView()
+//                }
 
                 PipView(isVideo: $isVideo.animation())
                     .frame(width: 204, height: 180)
